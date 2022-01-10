@@ -30,6 +30,7 @@ Code for the paper: Extracting Seizure Frequency From Epilepsy Clinic Notes
 16. merge_predictions_and_ground_truths.py - merges model predictions with the ground truth datasets into a single json file, allowing for side-by-side comparison between ground truth answers with model predictions for each question and paragraph.
 17. plot_results.py - plots the performance metrics of the model
 18. calc_stats_for_results.py - performs 2-sided Mann-Whitney U tests on the performance metrics to determine statistical significance.
+19. evaluate_tokenized_lengths.py - tokenizes the extracted paragraphs using the BERT tokenizer and measures the distribution of lengths before and after truncation.
 
 # Working Directory Organization
 We outline our working directory structure here. For PHI privacy concerns, only the code can be included. 
