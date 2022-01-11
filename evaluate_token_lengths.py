@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import re
 from difflib import SequenceMatcher
 from datetime import datetime
-import seaborn as sns
-sns.set_theme(style='ticks')
 
 def get_paragraph(whitelist_regex, blacklist_regex, note_text, note_author, pat_id, visit_date, splitter="  ", max_length=(3*512-30)):
     #split the document into lines
